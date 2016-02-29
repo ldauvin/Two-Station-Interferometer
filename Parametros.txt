@@ -1,0 +1,192 @@
+Se muestran los parametros utilizados para realizar las mediciones
+
+
+#Parametros
+
+
+#'''
+# Medicion 1
+#Por el usuario
+B= 0.428 #Baseline [m]
+freq=11e9 # Frecuencia del cielo
+dec_deg=-12.27 #deg
+samp_rate=1e6
+fft_size=1024
+fft_rate=30
+start=12*3600+(30*60) #inicio de medicion a las 12:27. hora de inicio de la medicion, en segundos
+filename='20160218_data.txt'
+
+#'''
+
+'''
+# Medicion 2
+#Por el usuario
+B= 1.483 #Baseline [m]
+freq=11e9 # Frecuencia del cielo
+dec_deg=-12.27 #deg
+samp_rate=32e6
+fft_size=1024
+fft_rate=30
+start=10*3600+(30*60) #inicio de medicion a las 12:27. hora de inicio de la medicion, en segundos
+filename='20160222_data.txt'
+'''
+
+
+
+'''
+# Medicion 3
+#Por el usuario
+B= 1.483 #Baseline [m]
+freq=11e9 # Frecuencia del cielo
+dec_deg=-12.27 #deg
+samp_rate=6e6
+fft_size=1024
+fft_rate=30
+start=12*3600+(27*60) #inicio de medicion a las 12:27. hora de inicio de la medicion, en segundos
+filename='20160223_data.txt'
+'''
+
+
+
+
+'''
+# Medicion 4
+#Por el usuario
+B= 1.483 #Baseline [m]
+freq=11e9 # Frecuencia del cielo
+dec_deg=-12.27 #deg
+samp_rate=5e6
+fft_size=1024
+fft_rate=30
+start=15*3600+(00*60) #inicio de medicion a las 12:27. hora de inicio de la medicion, en segundos
+filename='20160223_data2.txt'
+'''
+
+
+'''
+#Medicion 5
+#Por el usuario
+B= 1.483 #Baseline [m]
+freq=11e9 # Frecuencia del cielo
+dec_deg=-12.27 #deg
+samp_rate=6e6
+fft_size=1024
+fft_rate=30
+start=16*3600+(22*60) # hora de inicio de la medicion, en segundos
+filename='20160223_data3.txt'
+'''
+
+
+
+
+'''
+#Medicion 6
+#58 minutos de integracion, 3635 datos --> 0.96 segundos por dato
+#Por el usuario
+BW=4e6 # Ancho de banda de RF
+ganancia=38
+center_freq=1010e6
+B= 1.483 #Baseline [m]
+freq=11e9 # Frecuencia del cielo
+dec_deg=-12.27 #deg
+samp_rate=8e6
+fft_size=1024
+fft_rate=30
+start=14*3600+(05*60) # hora de inicio de la medicion, en segundos. Hasta las 15:03
+filename='20160224_data.txt'
+'''
+
+
+
+
+
+'''
+#Medicion 7
+# desde las 15:04 hasta las 15:52
+#integra 48 minutos
+#Por el usuario
+
+BW=1e6 # Ancho de banda de RF
+ganancia=38
+center_freq=3.025e9
+B= 1.483 #Baseline [m]
+freq=11e9 # Frecuencia del cielo
+dec_deg=-12.27 #deg
+samp_rate=1e6
+fft_size=1024
+fft_rate=30
+start=15*3600+(04*60) # hora de inicio de la medicion, en segundos
+filename='20160224_data2.txt'
+'''
+
+
+
+
+
+'''
+#Medicion 8
+# desde las 09:40 hasta las 14:50
+
+#Por el usuario
+
+BW=8e6 # Ancho de banda de RF
+ganancia=38
+center_freq=1010e6
+B= 1.483 #Baseline [m]
+freq=11e9 # Frecuencia del cielo
+dec_deg=-12.27 #deg
+samp_rate=1e6
+fft_size=1024
+fft_rate=30
+start=9*3600+(40*60) # hora de inicio de la medicion, en segundos
+filename='20160226_data.txt'
+'''
+
+
+'''
+#Medicion 9
+# desde las 10:20 hasta las 16:48
+
+#Por el usuario
+
+BW=2e6 # Ancho de banda de RF
+ganancia=38
+center_freq=1010e6
+B= 1.483 #Baseline [m]
+freq=11e9 # Frecuencia del cielo
+dec_deg=-12.27 #deg
+samp_rate=2e6
+fft_size=1024
+fft_rate=30
+start=10*3600+(20*60) # hora de inicio de la medicion, en segundos
+filename='20160227_data.txt'
+'''
+
+
+
+'''
+#Medicion 10
+# desde las 10:41 hasta las 19:00
+
+#Por el usuario
+
+BW=5e6 # Ancho de banda de RF
+ganancia=38
+center_freq=1010e6
+B= 1.483 #Baseline [m]
+freq=11e9 # Frecuencia del cielo
+dec_deg=-12.27 #deg
+samp_rate=5e6
+fft_size=1024
+fft_rate=30
+start=10*3600+(41*60) # hora de inicio de la medicion, en segundos
+filename='20160228_data.txt'
+'''
+
+
+
+
+
+
+
+
